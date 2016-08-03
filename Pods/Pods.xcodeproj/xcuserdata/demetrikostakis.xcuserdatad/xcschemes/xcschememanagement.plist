@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>GeoFire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-ChoreMastr.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>9D0D4238933EADF02D16F22CB01DF15E</key>
+		<key>6EDC2E0C51F2758104D99108C2CCE163</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A1D644B208C8D6F3EC27B5C3D8814145</key>
+		<key>7908849B370564D3342427B24CCD92B7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BFDA1C724C51530744EF4F92837AD57A</key>
+		<key>A040A0F610542F7F62D691EE005EE522</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A6717C57C366F1329160015748CD5F76</key>
 		<dict>
 			<key>primary</key>
 			<true/>

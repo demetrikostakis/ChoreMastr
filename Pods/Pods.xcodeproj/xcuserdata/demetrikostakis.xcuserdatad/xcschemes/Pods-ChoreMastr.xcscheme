@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '393687F6F5CCF83E535EE027'
+               BlueprintIdentifier = 'FFD1FF02810CBECD839AD064'
                BlueprintName = 'Pods-ChoreMastr'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_ChoreMastr.framework'>

@@ -10,6 +10,7 @@ pod 'Firebase/Database'
 pod 'Firebase/Auth'
 pod 'Firebase/Storage'
 pod 'TBEmptyDataSet'
+pod 'GeoFire', :git => 'https://github.com/firebase/geofire-objc.git'
 pod ‘Stripe’
 end
 

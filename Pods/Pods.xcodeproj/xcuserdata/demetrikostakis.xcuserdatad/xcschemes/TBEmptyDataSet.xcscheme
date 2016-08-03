@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'F8B2F3B03EB508D8950137FA'
+               BlueprintIdentifier = '525ABE27EE080C79524E1DB1'
                BlueprintName = 'TBEmptyDataSet'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'TBEmptyDataSet.framework'>

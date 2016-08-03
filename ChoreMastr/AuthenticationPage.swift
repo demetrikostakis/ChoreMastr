@@ -71,7 +71,6 @@ class AuthenticationPage: UITableViewController {
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         
-        
         if pageType == .LogIn{
             return 1
         }else{

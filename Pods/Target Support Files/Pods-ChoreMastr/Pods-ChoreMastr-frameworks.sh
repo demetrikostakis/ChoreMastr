@@ -84,10 +84,12 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-ChoreMastr/GeoFire.framework"
   install_framework "Pods-ChoreMastr/Stripe.framework"
   install_framework "Pods-ChoreMastr/TBEmptyDataSet.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-ChoreMastr/GeoFire.framework"
   install_framework "Pods-ChoreMastr/Stripe.framework"
   install_framework "Pods-ChoreMastr/TBEmptyDataSet.framework"
 fi
