@@ -2,8 +2,8 @@
 Source files for ChoreMastr iPhone app.
 
 #Developers
-Demetri Kostakis - Head of Project Development
+Demetrios M. Kostakis - Head of Project Development
 
-Kevin Phines - Lead Developer
+Kevin P. hines - Lead Developer
 
 #ChoreMastr is currently in development!
