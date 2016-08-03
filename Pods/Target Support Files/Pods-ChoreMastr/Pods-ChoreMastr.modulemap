@@ -1,0 +1,6 @@
+framework module Pods_ChoreMastr {
+  umbrella header "Pods-ChoreMastr-umbrella.h"
+
+  export *
+  module * { export * }
+}

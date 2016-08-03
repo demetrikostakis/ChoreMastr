@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FilterCell" customModule="ChoreMastr" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="filterCell" rowHeight="100" id="zI6-dj-1ZO" customClass="FilterCell" customModule="ChoreMastr" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zI6-dj-1ZO" id="TZa-ID-zQg">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="99.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="T3m-Hs-AsD">
+                        <rect key="frame" x="6" y="35" width="308" height="31"/>
+                    </slider>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hiy-Mw-Mqv">
+                        <rect key="frame" x="8" y="73" width="304" height="18.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jqr-WM-tHL">
+                        <rect key="frame" x="270" y="8" width="42" height="19"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ilP-jA-jhy">
+                        <rect key="frame" x="8" y="8" width="42" height="19"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ilP-jA-jhy" firstAttribute="top" secondItem="TZa-ID-zQg" secondAttribute="top" constant="8" id="704-fN-HEA"/>
+                    <constraint firstAttribute="trailing" secondItem="jqr-WM-tHL" secondAttribute="trailing" constant="8" id="8iK-cy-bVZ"/>
+                    <constraint firstAttribute="trailing" secondItem="Hiy-Mw-Mqv" secondAttribute="trailing" constant="8" id="G8Z-sU-MwG"/>
+                    <constraint firstItem="T3m-Hs-AsD" firstAttribute="top" secondItem="ilP-jA-jhy" secondAttribute="bottom" constant="8" id="GKg-mA-n9L"/>
+                    <constraint firstItem="T3m-Hs-AsD" firstAttribute="top" secondItem="jqr-WM-tHL" secondAttribute="bottom" constant="8" id="Mdg-dv-5jD"/>
+                    <constraint firstAttribute="bottom" secondItem="Hiy-Mw-Mqv" secondAttribute="bottom" constant="8" id="Nbr-E2-lln"/>
+                    <constraint firstItem="Hiy-Mw-Mqv" firstAttribute="top" secondItem="T3m-Hs-AsD" secondAttribute="bottom" constant="8" id="WSi-Hs-OAr"/>
+                    <constraint firstItem="jqr-WM-tHL" firstAttribute="top" secondItem="TZa-ID-zQg" secondAttribute="top" constant="8" id="dVY-Mo-GIY"/>
+                    <constraint firstItem="T3m-Hs-AsD" firstAttribute="leading" secondItem="TZa-ID-zQg" secondAttribute="leadingMargin" id="jw7-7I-Mfc"/>
+                    <constraint firstItem="T3m-Hs-AsD" firstAttribute="top" secondItem="TZa-ID-zQg" secondAttribute="topMargin" constant="27" id="k1Z-66-eV4"/>
+                    <constraint firstItem="T3m-Hs-AsD" firstAttribute="trailing" secondItem="TZa-ID-zQg" secondAttribute="trailingMargin" id="lEJ-Xv-lf0"/>
+                    <constraint firstItem="Hiy-Mw-Mqv" firstAttribute="leading" secondItem="TZa-ID-zQg" secondAttribute="leading" constant="8" id="pn2-1R-0ru"/>
+                    <constraint firstItem="ilP-jA-jhy" firstAttribute="leading" secondItem="TZa-ID-zQg" secondAttribute="leading" constant="8" id="ypA-4M-Iqh"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bottomLabel" destination="Hiy-Mw-Mqv" id="02p-3j-tUB"/>
+                <outlet property="leftLabel" destination="ilP-jA-jhy" id="e2F-mt-cNX"/>
+                <outlet property="rightLabel" destination="jqr-WM-tHL" id="szQ-bc-isw"/>
+                <outlet property="slider" destination="T3m-Hs-AsD" id="bOd-Tm-MN1"/>
+            </connections>
+            <point key="canvasLocation" x="269" y="-147"/>
+        </tableViewCell>
+    </objects>
+</document>

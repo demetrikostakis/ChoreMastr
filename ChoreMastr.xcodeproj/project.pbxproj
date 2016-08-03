@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F48C317E7A5B11EDD9CFE0D /* Pods_ChoreMastr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B86E4A3965418621EB01A94 /* Pods_ChoreMastr.framework */; };
+		C41A7C381CCD206700C2A3FE /* ChoreSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41A7C371CCD206700C2A3FE /* ChoreSearch.swift */; };
+		C42149951CDFF740009B1571 /* FilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42149941CDFF740009B1571 /* FilterCell.swift */; };
+		C42149971CDFF762009B1571 /* FilterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C42149961CDFF762009B1571 /* FilterCell.xib */; };
+		C4779CD11CC198C20051FDA5 /* LegalPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4779CD01CC198C20051FDA5 /* LegalPage.swift */; };
+		C4779CDC1CC1AEDD0051FDA5 /* ChoreMastr Privacy Policy Template.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = C4779CD91CC1AEDD0051FDA5 /* ChoreMastr Privacy Policy Template.rtfd */; };
+		C4779CDD1CC1AEDD0051FDA5 /* ChoreMastr Terms and Conditions Template.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = C4779CDA1CC1AEDD0051FDA5 /* ChoreMastr Terms and Conditions Template.rtfd */; };
+		C4779CDE1CC1AEDD0051FDA5 /* ChoreMastr Terms of Service Template.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = C4779CDB1CC1AEDD0051FDA5 /* ChoreMastr Terms of Service Template.rtfd */; };
+		C4779CE01CC2BF570051FDA5 /* HelperProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4779CDF1CC2BF570051FDA5 /* HelperProfilePage.swift */; };
+		C4779CE41CC33A2A0051FDA5 /* UpdateHelperProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4779CE31CC33A2A0051FDA5 /* UpdateHelperProfile.swift */; };
+		C4BD6B261CF37FA6005893A3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4BD6B251CF37FA6005893A3 /* GoogleService-Info.plist */; };
+		C4CE07C41CBAA37A00222CCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CE07C31CBAA37A00222CCD /* AppDelegate.swift */; };
+		C4CE07C61CBAA37A00222CCD /* StartPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CE07C51CBAA37A00222CCD /* StartPage.swift */; };
+		C4CE07C91CBAA37A00222CCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4CE07C71CBAA37A00222CCD /* Main.storyboard */; };
+		C4CE07CB1CBAA37B00222CCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4CE07CA1CBAA37B00222CCD /* Assets.xcassets */; };
+		C4CE07CE1CBAA37B00222CCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4CE07CC1CBAA37B00222CCD /* LaunchScreen.storyboard */; };
+		C4CE07D91CBAA37B00222CCD /* ChoreMastrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CE07D81CBAA37B00222CCD /* ChoreMastrTests.swift */; };
+		C4CE07E41CBAA37B00222CCD /* ChoreMastrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CE07E31CBAA37B00222CCD /* ChoreMastrUITests.swift */; };
+		C4CE07F21CBAA5E600222CCD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4CE07F11CBAA5E600222CCD /* QuartzCore.framework */; };
+		C4CE07F41CBAAC5700222CCD /* AuthenticationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CE07F31CBAAC5700222CCD /* AuthenticationPage.swift */; };
+		C4CE07F81CBAFF2500222CCD /* SignUp_NameEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CE07F71CBAFF2500222CCD /* SignUp_NameEntry.swift */; };
+		C4CE07FA1CBB056200222CCD /* SignUp_MobileEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CE07F91CBB056200222CCD /* SignUp_MobileEntry.swift */; };
+		C4CE07FC1CBB0A8200222CCD /* StandardHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CE07FB1CBB0A8200222CCD /* StandardHome.swift */; };
+		C4CE08031CBBE05900222CCD /* AccountPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CE08021CBBE05900222CCD /* AccountPage.swift */; };
+		C4CE08091CBDFA8C00222CCD /* MessagesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CE08081CBDFA8C00222CCD /* MessagesPage.swift */; };
+		C4CE080B1CBDFBA900222CCD /* SignUp_AddressEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CE080A1CBDFBA900222CCD /* SignUp_AddressEntry.swift */; };
+		C4CE080E1CBDFE5E00222CCD /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CE080D1CBDFE5E00222CCD /* History.swift */; };
+		C4CE08101CC009F100222CCD /* UpdateAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CE080F1CC009F100222CCD /* UpdateAccount.swift */; };
+		C4E6F5E61CDFD850004AD119 /* FilterMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E6F5E51CDFD850004AD119 /* FilterMenu.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4CE07D51CBAA37B00222CCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4CE07B81CBAA37A00222CCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4CE07BF1CBAA37A00222CCD;
+			remoteInfo = ChoreMastr;
+		};
+		C4CE07E01CBAA37B00222CCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4CE07B81CBAA37A00222CCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4CE07BF1CBAA37A00222CCD;
+			remoteInfo = ChoreMastr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B86E4A3965418621EB01A94 /* Pods_ChoreMastr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChoreMastr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AEC12CBAE2D91F886923CB1 /* Pods-ChoreMastr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChoreMastr.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChoreMastr/Pods-ChoreMastr.release.xcconfig"; sourceTree = "<group>"; };
+		C41A7C371CCD206700C2A3FE /* ChoreSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoreSearch.swift; sourceTree = "<group>"; };
+		C42149941CDFF740009B1571 /* FilterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterCell.swift; sourceTree = "<group>"; };
+		C42149961CDFF762009B1571 /* FilterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilterCell.xib; sourceTree = "<group>"; };
+		C4779CD01CC198C20051FDA5 /* LegalPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegalPage.swift; sourceTree = "<group>"; };
+		C4779CD91CC1AEDD0051FDA5 /* ChoreMastr Privacy Policy Template.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; name = "ChoreMastr Privacy Policy Template.rtfd"; path = "../../../ChoreMastr_Company/Legal Documents/ChoreMastr Privacy Policy Template.rtfd"; sourceTree = "<group>"; };
+		C4779CDA1CC1AEDD0051FDA5 /* ChoreMastr Terms and Conditions Template.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; name = "ChoreMastr Terms and Conditions Template.rtfd"; path = "../../../ChoreMastr_Company/Legal Documents/ChoreMastr Terms and Conditions Template.rtfd"; sourceTree = "<group>"; };
+		C4779CDB1CC1AEDD0051FDA5 /* ChoreMastr Terms of Service Template.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; name = "ChoreMastr Terms of Service Template.rtfd"; path = "../../../ChoreMastr_Company/Legal Documents/ChoreMastr Terms of Service Template.rtfd"; sourceTree = "<group>"; };
+		C4779CDF1CC2BF570051FDA5 /* HelperProfilePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperProfilePage.swift; sourceTree = "<group>"; };
+		C4779CE31CC33A2A0051FDA5 /* UpdateHelperProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateHelperProfile.swift; sourceTree = "<group>"; };
+		C4BD6B251CF37FA6005893A3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C4CE07C01CBAA37A00222CCD /* ChoreMastr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChoreMastr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4CE07C31CBAA37A00222CCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4CE07C51CBAA37A00222CCD /* StartPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPage.swift; sourceTree = "<group>"; };
+		C4CE07C81CBAA37A00222CCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4CE07CA1CBAA37B00222CCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4CE07CD1CBAA37B00222CCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4CE07CF1CBAA37B00222CCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4CE07D41CBAA37B00222CCD /* ChoreMastrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChoreMastrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4CE07D81CBAA37B00222CCD /* ChoreMastrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoreMastrTests.swift; sourceTree = "<group>"; };
+		C4CE07DA1CBAA37B00222CCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4CE07DF1CBAA37B00222CCD /* ChoreMastrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChoreMastrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4CE07E31CBAA37B00222CCD /* ChoreMastrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoreMastrUITests.swift; sourceTree = "<group>"; };
+		C4CE07E51CBAA37B00222CCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4CE07F11CBAA5E600222CCD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C4CE07F31CBAAC5700222CCD /* AuthenticationPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationPage.swift; sourceTree = "<group>"; };
+		C4CE07F71CBAFF2500222CCD /* SignUp_NameEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUp_NameEntry.swift; sourceTree = "<group>"; };
+		C4CE07F91CBB056200222CCD /* SignUp_MobileEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUp_MobileEntry.swift; sourceTree = "<group>"; };
+		C4CE07FB1CBB0A8200222CCD /* StandardHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardHome.swift; sourceTree = "<group>"; };
+		C4CE07FD1CBBDACE00222CCD /* ChoreMastr-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChoreMastr-Bridging-Header.h"; sourceTree = "<group>"; };
+		C4CE08021CBBE05900222CCD /* AccountPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountPage.swift; sourceTree = "<group>"; };
+		C4CE08081CBDFA8C00222CCD /* MessagesPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesPage.swift; sourceTree = "<group>"; };
+		C4CE080A1CBDFBA900222CCD /* SignUp_AddressEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUp_AddressEntry.swift; sourceTree = "<group>"; };
+		C4CE080D1CBDFE5E00222CCD /* History.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		C4CE080F1CC009F100222CCD /* UpdateAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateAccount.swift; sourceTree = "<group>"; };
+		C4E6F5E51CDFD850004AD119 /* FilterMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterMenu.swift; sourceTree = "<group>"; };
+		DC612AED0A1A711484973621 /* Pods-ChoreMastr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChoreMastr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChoreMastr/Pods-ChoreMastr.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4CE07BD1CBAA37A00222CCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4CE07F21CBAA5E600222CCD /* QuartzCore.framework in Frameworks */,
+				6F48C317E7A5B11EDD9CFE0D /* Pods_ChoreMastr.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4CE07D11CBAA37B00222CCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4CE07DC1CBAA37B00222CCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C41A7C361CCD203900C2A3FE /* Request Process */ = {
+			isa = PBXGroup;
+			children = (
+				C41A7C371CCD206700C2A3FE /* ChoreSearch.swift */,
+				C4E6F5E51CDFD850004AD119 /* FilterMenu.swift */,
+				C42149941CDFF740009B1571 /* FilterCell.swift */,
+				C42149961CDFF762009B1571 /* FilterCell.xib */,
+			);
+			name = "Request Process";
+			sourceTree = "<group>";
+		};
+		C4779CD81CC19C820051FDA5 /* Legal Documents */ = {
+			isa = PBXGroup;
+			children = (
+				C4779CD91CC1AEDD0051FDA5 /* ChoreMastr Privacy Policy Template.rtfd */,
+				C4779CDA1CC1AEDD0051FDA5 /* ChoreMastr Terms and Conditions Template.rtfd */,
+				C4779CDB1CC1AEDD0051FDA5 /* ChoreMastr Terms of Service Template.rtfd */,
+			);
+			name = "Legal Documents";
+			sourceTree = "<group>";
+		};
+		C47C4DD41CEEB03900AD4D22 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C4CE07FB1CBB0A8200222CCD /* StandardHome.swift */,
+				C4CE08021CBBE05900222CCD /* AccountPage.swift */,
+				C4CE08081CBDFA8C00222CCD /* MessagesPage.swift */,
+				C4CE080D1CBDFE5E00222CCD /* History.swift */,
+				C4CE080F1CC009F100222CCD /* UpdateAccount.swift */,
+				C4779CE31CC33A2A0051FDA5 /* UpdateHelperProfile.swift */,
+				C4779CD01CC198C20051FDA5 /* LegalPage.swift */,
+				C4779CDF1CC2BF570051FDA5 /* HelperProfilePage.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		C47C4DD51CEEB09F00AD4D22 /* Startup */ = {
+			isa = PBXGroup;
+			children = (
+				C4CE07F31CBAAC5700222CCD /* AuthenticationPage.swift */,
+				C4CE07C31CBAA37A00222CCD /* AppDelegate.swift */,
+				C4CE07C51CBAA37A00222CCD /* StartPage.swift */,
+			);
+			name = Startup;
+			sourceTree = "<group>";
+		};
+		C4CE07B71CBAA37A00222CCD = {
+			isa = PBXGroup;
+			children = (
+				C4CE07F11CBAA5E600222CCD /* QuartzCore.framework */,
+				C4CE07C21CBAA37A00222CCD /* ChoreMastr */,
+				C4CE07D71CBAA37B00222CCD /* ChoreMastrTests */,
+				C4CE07E21CBAA37B00222CCD /* ChoreMastrUITests */,
+				C4CE07C11CBAA37A00222CCD /* Products */,
+				E6CB07E7CF417AD1DE0FA17D /* Pods */,
+				F4A795D6C004CA1979800743 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C4CE07C11CBAA37A00222CCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4CE07C01CBAA37A00222CCD /* ChoreMastr.app */,
+				C4CE07D41CBAA37B00222CCD /* ChoreMastrTests.xctest */,
+				C4CE07DF1CBAA37B00222CCD /* ChoreMastrUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4CE07C21CBAA37A00222CCD /* ChoreMastr */ = {
+			isa = PBXGroup;
+			children = (
+				C47C4DD51CEEB09F00AD4D22 /* Startup */,
+				C47C4DD41CEEB03900AD4D22 /* Main */,
+				C41A7C361CCD203900C2A3FE /* Request Process */,
+				C4CE08011CBBDAD700222CCD /* Third Party Libraries */,
+				C4779CD81CC19C820051FDA5 /* Legal Documents */,
+				C4CE080C1CBDFD1400222CCD /* Standard Registration */,
+				C4CE07CA1CBAA37B00222CCD /* Assets.xcassets */,
+				C4CE07C71CBAA37A00222CCD /* Main.storyboard */,
+				C4CE07CC1CBAA37B00222CCD /* LaunchScreen.storyboard */,
+				C4CE07CF1CBAA37B00222CCD /* Info.plist */,
+				C4BD6B251CF37FA6005893A3 /* GoogleService-Info.plist */,
+			);
+			path = ChoreMastr;
+			sourceTree = "<group>";
+		};
+		C4CE07D71CBAA37B00222CCD /* ChoreMastrTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4CE07D81CBAA37B00222CCD /* ChoreMastrTests.swift */,
+				C4CE07DA1CBAA37B00222CCD /* Info.plist */,
+			);
+			path = ChoreMastrTests;
+			sourceTree = "<group>";
+		};
+		C4CE07E21CBAA37B00222CCD /* ChoreMastrUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4CE07E31CBAA37B00222CCD /* ChoreMastrUITests.swift */,
+				C4CE07E51CBAA37B00222CCD /* Info.plist */,
+			);
+			path = ChoreMastrUITests;
+			sourceTree = "<group>";
+		};
+		C4CE08011CBBDAD700222CCD /* Third Party Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				C4CE07FD1CBBDACE00222CCD /* ChoreMastr-Bridging-Header.h */,
+			);
+			name = "Third Party Libraries";
+			sourceTree = "<group>";
+		};
+		C4CE080C1CBDFD1400222CCD /* Standard Registration */ = {
+			isa = PBXGroup;
+			children = (
+				C4CE07F71CBAFF2500222CCD /* SignUp_NameEntry.swift */,
+				C4CE07F91CBB056200222CCD /* SignUp_MobileEntry.swift */,
+				C4CE080A1CBDFBA900222CCD /* SignUp_AddressEntry.swift */,
+			);
+			name = "Standard Registration";
+			sourceTree = "<group>";
+		};
+		E6CB07E7CF417AD1DE0FA17D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC612AED0A1A711484973621 /* Pods-ChoreMastr.debug.xcconfig */,
+				3AEC12CBAE2D91F886923CB1 /* Pods-ChoreMastr.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F4A795D6C004CA1979800743 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B86E4A3965418621EB01A94 /* Pods_ChoreMastr.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4CE07BF1CBAA37A00222CCD /* ChoreMastr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4CE07E81CBAA37B00222CCD /* Build configuration list for PBXNativeTarget "ChoreMastr" */;
+			buildPhases = (
+				3F788B4A7D88D8A7D9551E4A /* Check Pods Manifest.lock */,
+				C4CE07BC1CBAA37A00222CCD /* Sources */,
+				C4CE07BD1CBAA37A00222CCD /* Frameworks */,
+				C4CE07BE1CBAA37A00222CCD /* Resources */,
+				96FC2C227C6B587C9EC3C9C3 /* Embed Pods Frameworks */,
+				5E95F3E21D58542D3A06037D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChoreMastr;
+			productName = ChoreMastr;
+			productReference = C4CE07C01CBAA37A00222CCD /* ChoreMastr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4CE07D31CBAA37B00222CCD /* ChoreMastrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4CE07EB1CBAA37B00222CCD /* Build configuration list for PBXNativeTarget "ChoreMastrTests" */;
+			buildPhases = (
+				C4CE07D01CBAA37B00222CCD /* Sources */,
+				C4CE07D11CBAA37B00222CCD /* Frameworks */,
+				C4CE07D21CBAA37B00222CCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4CE07D61CBAA37B00222CCD /* PBXTargetDependency */,
+			);
+			name = ChoreMastrTests;
+			productName = ChoreMastrTests;
+			productReference = C4CE07D41CBAA37B00222CCD /* ChoreMastrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4CE07DE1CBAA37B00222CCD /* ChoreMastrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4CE07EE1CBAA37B00222CCD /* Build configuration list for PBXNativeTarget "ChoreMastrUITests" */;
+			buildPhases = (
+				C4CE07DB1CBAA37B00222CCD /* Sources */,
+				C4CE07DC1CBAA37B00222CCD /* Frameworks */,
+				C4CE07DD1CBAA37B00222CCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4CE07E11CBAA37B00222CCD /* PBXTargetDependency */,
+			);
+			name = ChoreMastrUITests;
+			productName = ChoreMastrUITests;
+			productReference = C4CE07DF1CBAA37B00222CCD /* ChoreMastrUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4CE07B81CBAA37A00222CCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ChoreMastr;
+				TargetAttributes = {
+					C4CE07BF1CBAA37A00222CCD = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = LPH3RS29PQ;
+					};
+					C4CE07D31CBAA37B00222CCD = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C4CE07BF1CBAA37A00222CCD;
+					};
+					C4CE07DE1CBAA37B00222CCD = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C4CE07BF1CBAA37A00222CCD;
+					};
+				};
+			};
+			buildConfigurationList = C4CE07BB1CBAA37A00222CCD /* Build configuration list for PBXProject "ChoreMastr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4CE07B71CBAA37A00222CCD;
+			productRefGroup = C4CE07C11CBAA37A00222CCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4CE07BF1CBAA37A00222CCD /* ChoreMastr */,
+				C4CE07D31CBAA37B00222CCD /* ChoreMastrTests */,
+				C4CE07DE1CBAA37B00222CCD /* ChoreMastrUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4CE07BE1CBAA37A00222CCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4779CDC1CC1AEDD0051FDA5 /* ChoreMastr Privacy Policy Template.rtfd in Resources */,
+				C4BD6B261CF37FA6005893A3 /* GoogleService-Info.plist in Resources */,
+				C4CE07CE1CBAA37B00222CCD /* LaunchScreen.storyboard in Resources */,
+				C4CE07CB1CBAA37B00222CCD /* Assets.xcassets in Resources */,
+				C4CE07C91CBAA37A00222CCD /* Main.storyboard in Resources */,
+				C4779CDE1CC1AEDD0051FDA5 /* ChoreMastr Terms of Service Template.rtfd in Resources */,
+				C4779CDD1CC1AEDD0051FDA5 /* ChoreMastr Terms and Conditions Template.rtfd in Resources */,
+				C42149971CDFF762009B1571 /* FilterCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4CE07D21CBAA37B00222CCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4CE07DD1CBAA37B00222CCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F788B4A7D88D8A7D9551E4A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5E95F3E21D58542D3A06037D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChoreMastr/Pods-ChoreMastr-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96FC2C227C6B587C9EC3C9C3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChoreMastr/Pods-ChoreMastr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4CE07BC1CBAA37A00222CCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4CE07C61CBAA37A00222CCD /* StartPage.swift in Sources */,
+				C4CE07C41CBAA37A00222CCD /* AppDelegate.swift in Sources */,
+				C42149951CDFF740009B1571 /* FilterCell.swift in Sources */,
+				C4779CE41CC33A2A0051FDA5 /* UpdateHelperProfile.swift in Sources */,
+				C4CE080E1CBDFE5E00222CCD /* History.swift in Sources */,
+				C4CE07FA1CBB056200222CCD /* SignUp_MobileEntry.swift in Sources */,
+				C4CE07F81CBAFF2500222CCD /* SignUp_NameEntry.swift in Sources */,
+				C4E6F5E61CDFD850004AD119 /* FilterMenu.swift in Sources */,
+				C4779CE01CC2BF570051FDA5 /* HelperProfilePage.swift in Sources */,
+				C41A7C381CCD206700C2A3FE /* ChoreSearch.swift in Sources */,
+				C4CE07F41CBAAC5700222CCD /* AuthenticationPage.swift in Sources */,
+				C4CE08091CBDFA8C00222CCD /* MessagesPage.swift in Sources */,
+				C4CE08101CC009F100222CCD /* UpdateAccount.swift in Sources */,
+				C4779CD11CC198C20051FDA5 /* LegalPage.swift in Sources */,
+				C4CE08031CBBE05900222CCD /* AccountPage.swift in Sources */,
+				C4CE07FC1CBB0A8200222CCD /* StandardHome.swift in Sources */,
+				C4CE080B1CBDFBA900222CCD /* SignUp_AddressEntry.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4CE07D01CBAA37B00222CCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4CE07D91CBAA37B00222CCD /* ChoreMastrTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4CE07DB1CBAA37B00222CCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4CE07E41CBAA37B00222CCD /* ChoreMastrUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4CE07D61CBAA37B00222CCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4CE07BF1CBAA37A00222CCD /* ChoreMastr */;
+			targetProxy = C4CE07D51CBAA37B00222CCD /* PBXContainerItemProxy */;
+		};
+		C4CE07E11CBAA37B00222CCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4CE07BF1CBAA37A00222CCD /* ChoreMastr */;
+			targetProxy = C4CE07E01CBAA37B00222CCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4CE07C71CBAA37A00222CCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4CE07C81CBAA37A00222CCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4CE07CC1CBAA37B00222CCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4CE07CD1CBAA37B00222CCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4CE07E61CBAA37B00222CCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4CE07E71CBAA37B00222CCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4CE07E91CBAA37B00222CCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC612AED0A1A711484973621 /* Pods-ChoreMastr.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ChoreMastr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChoreMastr.ChoreMastr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChoreMastr/ChoreMastr-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4CE07EA1CBAA37B00222CCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AEC12CBAE2D91F886923CB1 /* Pods-ChoreMastr.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ChoreMastr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChoreMastr.ChoreMastr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChoreMastr/ChoreMastr-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		C4CE07EC1CBAA37B00222CCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChoreMastrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChoreMastr.ChoreMastrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChoreMastr.app/ChoreMastr";
+			};
+			name = Debug;
+		};
+		C4CE07ED1CBAA37B00222CCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChoreMastrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChoreMastr.ChoreMastrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChoreMastr.app/ChoreMastr";
+			};
+			name = Release;
+		};
+		C4CE07EF1CBAA37B00222CCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChoreMastrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChoreMastr.ChoreMastrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChoreMastr;
+			};
+			name = Debug;
+		};
+		C4CE07F01CBAA37B00222CCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChoreMastrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChoreMastr.ChoreMastrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChoreMastr;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4CE07BB1CBAA37A00222CCD /* Build configuration list for PBXProject "ChoreMastr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4CE07E61CBAA37B00222CCD /* Debug */,
+				C4CE07E71CBAA37B00222CCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4CE07E81CBAA37B00222CCD /* Build configuration list for PBXNativeTarget "ChoreMastr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4CE07E91CBAA37B00222CCD /* Debug */,
+				C4CE07EA1CBAA37B00222CCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4CE07EB1CBAA37B00222CCD /* Build configuration list for PBXNativeTarget "ChoreMastrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4CE07EC1CBAA37B00222CCD /* Debug */,
+				C4CE07ED1CBAA37B00222CCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4CE07EE1CBAA37B00222CCD /* Build configuration list for PBXNativeTarget "ChoreMastrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4CE07EF1CBAA37B00222CCD /* Debug */,
+				C4CE07F01CBAA37B00222CCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4CE07B81CBAA37A00222CCD /* Project object */;
+}
