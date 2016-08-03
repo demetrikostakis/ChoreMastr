@@ -5,6 +5,7 @@
 //  Created by Demetri Kostakis on 4/11/16.
 //  Copyright © 2016 ChoreMastr. All rights reserved.
 //
+//  This file creates the account page for a use. Should display relevant account information and edit functions.
 
 import UIKit
 import Firebase

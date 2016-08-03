@@ -4,6 +4,8 @@
 //
 //  Created by Demetri Kostakis on 4/10/16.
 //  Copyright © 2016 ChoreMastr. All rights reserved.
+//  
+//  AuthenticationPage.swift file creates a view for either logging in or signing up. This one file is dynamic and depends on the button pressed on the start page.
 //
 
 import UIKit
@@ -214,6 +216,7 @@ enum AuthenticationType{
 }
 
 
+//ButtonCell class is used to create a rounded button
 class ButtonCell: UITableViewCell{
     
     @IBOutlet weak var authButton: UIButton!

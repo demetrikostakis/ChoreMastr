@@ -11,6 +11,7 @@
 		C41A7C381CCD206700C2A3FE /* ChoreSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41A7C371CCD206700C2A3FE /* ChoreSearch.swift */; };
 		C42149951CDFF740009B1571 /* FilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42149941CDFF740009B1571 /* FilterCell.swift */; };
 		C42149971CDFF762009B1571 /* FilterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C42149961CDFF762009B1571 /* FilterCell.xib */; };
+		C44714E41D525FA200C920A4 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44714E31D525FA200C920A4 /* Models.swift */; };
 		C4779CD11CC198C20051FDA5 /* LegalPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4779CD01CC198C20051FDA5 /* LegalPage.swift */; };
 		C4779CDC1CC1AEDD0051FDA5 /* ChoreMastr Privacy Policy Template.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = C4779CD91CC1AEDD0051FDA5 /* ChoreMastr Privacy Policy Template.rtfd */; };
 		C4779CDD1CC1AEDD0051FDA5 /* ChoreMastr Terms and Conditions Template.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = C4779CDA1CC1AEDD0051FDA5 /* ChoreMastr Terms and Conditions Template.rtfd */; };
@@ -61,6 +62,7 @@
 		C41A7C371CCD206700C2A3FE /* ChoreSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoreSearch.swift; sourceTree = "<group>"; };
 		C42149941CDFF740009B1571 /* FilterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterCell.swift; sourceTree = "<group>"; };
 		C42149961CDFF762009B1571 /* FilterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilterCell.xib; sourceTree = "<group>"; };
+		C44714E31D525FA200C920A4 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		C4779CD01CC198C20051FDA5 /* LegalPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegalPage.swift; sourceTree = "<group>"; };
 		C4779CD91CC1AEDD0051FDA5 /* ChoreMastr Privacy Policy Template.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; name = "ChoreMastr Privacy Policy Template.rtfd"; path = "../../../ChoreMastr_Company/Legal Documents/ChoreMastr Privacy Policy Template.rtfd"; sourceTree = "<group>"; };
 		C4779CDA1CC1AEDD0051FDA5 /* ChoreMastr Terms and Conditions Template.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; name = "ChoreMastr Terms and Conditions Template.rtfd"; path = "../../../ChoreMastr_Company/Legal Documents/ChoreMastr Terms and Conditions Template.rtfd"; sourceTree = "<group>"; };
@@ -134,6 +136,32 @@
 			name = "Request Process";
 			sourceTree = "<group>";
 		};
+		C44714E51D5260D200C920A4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C44714E31D525FA200C920A4 /* Models.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C44714E61D5260E900C920A4 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				C4CE07CF1CBAA37B00222CCD /* Info.plist */,
+				C4BD6B251CF37FA6005893A3 /* GoogleService-Info.plist */,
+			);
+			name = Plist;
+			sourceTree = "<group>";
+		};
+		C44714E71D52610E00C920A4 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C4CE07C71CBAA37A00222CCD /* Main.storyboard */,
+				C4CE07CC1CBAA37B00222CCD /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
 		C4779CD81CC19C820051FDA5 /* Legal Documents */ = {
 			isa = PBXGroup;
 			children = (
@@ -195,6 +223,9 @@
 		C4CE07C21CBAA37A00222CCD /* ChoreMastr */ = {
 			isa = PBXGroup;
 			children = (
+				C44714E71D52610E00C920A4 /* Storyboards */,
+				C44714E61D5260E900C920A4 /* Plist */,
+				C44714E51D5260D200C920A4 /* Models */,
 				C47C4DD51CEEB09F00AD4D22 /* Startup */,
 				C47C4DD41CEEB03900AD4D22 /* Main */,
 				C41A7C361CCD203900C2A3FE /* Request Process */,
@@ -202,10 +233,6 @@
 				C4779CD81CC19C820051FDA5 /* Legal Documents */,
 				C4CE080C1CBDFD1400222CCD /* Standard Registration */,
 				C4CE07CA1CBAA37B00222CCD /* Assets.xcassets */,
-				C4CE07C71CBAA37A00222CCD /* Main.storyboard */,
-				C4CE07CC1CBAA37B00222CCD /* LaunchScreen.storyboard */,
-				C4CE07CF1CBAA37B00222CCD /* Info.plist */,
-				C4BD6B251CF37FA6005893A3 /* GoogleService-Info.plist */,
 			);
 			path = ChoreMastr;
 			sourceTree = "<group>";
@@ -466,6 +493,7 @@
 				C4CE08101CC009F100222CCD /* UpdateAccount.swift in Sources */,
 				C4779CD11CC198C20051FDA5 /* LegalPage.swift in Sources */,
 				C4CE08031CBBE05900222CCD /* AccountPage.swift in Sources */,
+				C44714E41D525FA200C920A4 /* Models.swift in Sources */,
 				C4CE07FC1CBB0A8200222CCD /* StandardHome.swift in Sources */,
 				C4CE080B1CBDFBA900222CCD /* SignUp_AddressEntry.swift in Sources */,
 			);

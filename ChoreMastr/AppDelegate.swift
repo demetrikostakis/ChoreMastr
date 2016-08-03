@@ -5,6 +5,8 @@
 //  Created by Demetri Kostakis on 4/10/16.
 //  Copyright © 2016 ChoreMastr. All rights reserved.
 //
+//  The app Deligate is reserved for declaring global variables such as the current user or appRef variable used with firebase
+//
 
 import UIKit
 import Firebase

@@ -5,10 +5,12 @@
 //  Created by Demetri Kostakis on 4/14/16.
 //  Copyright © 2016 ChoreMastr. All rights reserved.
 //
+//  This file is used to update account information and should be called anytime account information is to be updated.
 
 import UIKit
 import Firebase
 import CoreLocation
+
 
 class UpdateAccount: UITableViewController, UITextFieldDelegate {
 
@@ -273,11 +275,4 @@ class UpdateAccount: UITableViewController, UITextFieldDelegate {
     }
     
 
-}
-
-enum EditAccountType{
-    case ChangePassword
-    case UpdateAddress
-    case ChangeDisplayName
-    case UpdatePayment
 }

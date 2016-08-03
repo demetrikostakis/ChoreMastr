@@ -90,23 +90,5 @@ class FilterMenu: UIView, UITableViewDelegate, UITableViewDataSource {
     
 }
 
-struct SearchFilter {
-    
-    var searchRadius: Double
-    var rating: Double
-    var hourlyRate: Double
-    
-    init() {
-        searchRadius = 7.5
-        rating = 2.5
-        hourlyRate = 30
-    }
-    
-    init(radius: Double, rating: Double, rate: Double){
-        self.searchRadius = radius
-        self.rating = rating
-        self.hourlyRate = rate
-    }
-}
 
 

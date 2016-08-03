@@ -5,6 +5,7 @@
 //  Created by Demetri Kostakis on 4/15/16.
 //  Copyright © 2016 ChoreMastr. All rights reserved.
 //
+//  Legal page has information that may be relavent to the user regarding use, privacy, and other legal information.
 
 import UIKit
 

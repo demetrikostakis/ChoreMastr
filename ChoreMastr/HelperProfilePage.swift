@@ -5,6 +5,7 @@
 //  Created by Demetri Kostakis on 4/16/16.
 //  Copyright © 2016 ChoreMastr. All rights reserved.
 //
+//  This file creates the profile for a Helpr. Should be populated with data from Firebase
 
 import UIKit
 

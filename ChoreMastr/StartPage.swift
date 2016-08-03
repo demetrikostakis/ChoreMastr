@@ -5,6 +5,7 @@
 //  Created by Demetri Kostakis on 4/10/16.
 //  Copyright © 2016 ChoreMastr. All rights reserved.
 //
+//  This file is the viewcontroller for the very first view in the app if you are not logged in. Allows the user to chose whether or not to sign into an existing account or sign up
 
 import UIKit
 import QuartzCore
