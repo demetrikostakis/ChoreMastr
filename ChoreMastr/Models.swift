@@ -69,7 +69,6 @@ struct User {
     mutating func addDayToSchedule(day: String, times: [String:String]){
         schedule[day] = times
     }
-    //
     
     //Function allows all the user data to be saved to firebase
     func toAnyObject() -> AnyObject{
